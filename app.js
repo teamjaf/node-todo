@@ -14,7 +14,7 @@ app.get('/hello', (req, res)=>{
 })
 
 
-app.use('/api/v1/test', test)
+app.use('image.png', test)
 app.use('/api/v1/tasks', tasks)
 // app.get('/api/v1/tasks')         - get all tasks
 // app.post('/api/v1/tasks')        - create a new task
