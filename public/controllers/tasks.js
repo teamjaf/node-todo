@@ -7,7 +7,7 @@ const getAllTasks = (req, res) =>{
 
 
 const createTask = ((req, res) => {
-    res.json(req.body)
+    res.json({id: req.params.id})
 })
 
 const getTask = ((req, res) => {
